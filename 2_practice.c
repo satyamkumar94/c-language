@@ -1,13 +1,8 @@
+// evaluate 3*x/y-z+k,x=2,y=3,z=3,k=1
 #include <stdio.h>
 int main()
 {
-    int length, breadth;
-    printf("what is the lenght of rectangle \n");
-    scanf("%d", &length);
-
-    printf("what is breadth of rectangle \n");
-    scanf("%d", &breadth);
-
-    printf("the area of your rectangle %d", length * breadth);
-    return 0;
+    int x = 2, y = 3, z = 3, k = 1;
+    int result = 3 * x / y - z + k;
+    printf("the value of result is %d", result);
 }
